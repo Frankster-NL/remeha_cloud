@@ -1,0 +1,52 @@
+{
+  "entity": {
+    "sensor": {
+      "water_pressure": {
+        "default": "mdi:gauge"
+      },
+      "error_status": {
+        "default": "mdi:alert-circle-outline"
+      },
+      "active_thermal_mode": {
+        "default": "mdi:heat-wave"
+      },
+      "operating_mode": {
+        "default": "mdi:cog"
+      },
+      "comfort_demand": {
+        "default": "mdi:radiator"
+      },
+      "dhw_status": {
+        "default": "mdi:water-boiler"
+      },
+      "next_switch_time": {
+        "default": "mdi:clock-outline"
+      },
+      "heat_pump_cop_yesterday": {
+        "default": "mdi:heat-pump"
+      },
+      "heat_pump_seasonal_efficiency": {
+        "default": "mdi:heat-pump-outline"
+      },
+      "heating_curve_slope": {
+        "default": "mdi:chart-line"
+      },
+      "activity_temperature": {
+        "default": "mdi:thermostat"
+      },
+      "max_flow_temperature": {
+        "default": "mdi:thermometer-chevron-up"
+      }
+    },
+    "binary_sensor": {
+      "holiday_active": {
+        "default": "mdi:airplane"
+      }
+    },
+    "switch": {
+      "fireplace_mode": {
+        "default": "mdi:fireplace"
+      }
+    }
+  }
+}

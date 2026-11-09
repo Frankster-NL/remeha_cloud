@@ -1,0 +1,156 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Remeha Home",
+        "description": "Sign in with your Remeha Home app account.",
+        "data": {
+          "email": "Email",
+          "password": "Password"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Re-authenticate Remeha Home",
+        "description": "Enter the password for {email}.",
+        "data": {
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid email or password.",
+      "cannot_connect": "Could not reach the Remeha cloud.",
+      "login_flow_failed": "Your credentials were accepted, but the Remeha login did not complete. See the Home Assistant log for details."
+    },
+    "abort": {
+      "already_configured": "This account is already configured.",
+      "reauth_successful": "Re-authentication successful."
+    }
+  },
+  "entity": {
+    "climate": {
+      "zone": {
+        "state_attributes": {
+          "preset_mode": {
+            "state": {
+              "program_1": "Program 1",
+              "program_2": "Program 2",
+              "program_3": "Program 3"
+            }
+          }
+        }
+      }
+    },
+    "water_heater": {
+      "dhw": {
+        "state": {
+          "eco": "Eco",
+          "comfort": "Comfort",
+          "schedule": "Schedule"
+        }
+      }
+    },
+    "sensor": {
+      "water_pressure": {
+        "name": "Water pressure"
+      },
+      "outdoor_temperature": {
+        "name": "Outdoor temperature"
+      },
+      "error_status": {
+        "name": "Status"
+      },
+      "active_thermal_mode": {
+        "name": "Active thermal mode"
+      },
+      "operating_mode": {
+        "name": "Operating mode"
+      },
+      "next_setpoint": {
+        "name": "Next setpoint"
+      },
+      "schedule_setpoint": {
+        "name": "Schedule setpoint"
+      },
+      "next_switch_time": {
+        "name": "Next switch time"
+      },
+      "comfort_demand": {
+        "name": "Comfort demand"
+      },
+      "dhw_temperature": {
+        "name": "Hot water temperature"
+      },
+      "dhw_status": {
+        "name": "Hot water status"
+      },
+      "heating_energy_consumed_yesterday": {
+        "name": "Heating energy consumed yesterday"
+      },
+      "heating_energy_delivered_yesterday": {
+        "name": "Heating energy delivered yesterday"
+      },
+      "hot_water_energy_consumed_yesterday": {
+        "name": "Hot water energy consumed yesterday"
+      },
+      "hot_water_energy_delivered_yesterday": {
+        "name": "Hot water energy delivered yesterday"
+      },
+      "cooling_energy_consumed_yesterday": {
+        "name": "Cooling energy consumed yesterday"
+      },
+      "cooling_energy_delivered_yesterday": {
+        "name": "Cooling energy delivered yesterday"
+      },
+      "heat_pump_electricity_yesterday": {
+        "name": "Heat pump electricity yesterday"
+      },
+      "heat_pump_heat_yesterday": {
+        "name": "Heat pump heat produced yesterday"
+      },
+      "heat_pump_cop_yesterday": {
+        "name": "Heat pump COP yesterday"
+      },
+      "heat_pump_seasonal_efficiency": {
+        "name": "Heat pump seasonal efficiency"
+      },
+      "boiler_gas_energy_yesterday": {
+        "name": "Boiler gas yesterday (energy)"
+      },
+      "boiler_gas_volume_yesterday": {
+        "name": "Boiler gas yesterday"
+      },
+      "heating_curve_slope": {
+        "name": "Heating curve slope"
+      },
+      "heating_curve_base_setpoint": {
+        "name": "Heating curve base setpoint"
+      },
+      "max_flow_temperature": {
+        "name": "Maximum flow temperature"
+      },
+      "activity_temperature": {
+        "name": "Activity {name}"
+      }
+    },
+    "binary_sensor": {
+      "online": {
+        "name": "Online"
+      },
+      "water_pressure_problem": {
+        "name": "Water pressure"
+      },
+      "holiday_active": {
+        "name": "Holiday mode"
+      },
+      "preheat_active": {
+        "name": "Pre-heating"
+      }
+    },
+    "switch": {
+      "fireplace_mode": {
+        "name": "Fireplace mode"
+      }
+    }
+  }
+}

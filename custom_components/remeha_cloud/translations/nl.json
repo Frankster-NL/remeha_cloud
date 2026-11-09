@@ -1,0 +1,156 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Remeha Home",
+        "description": "Log in met je Remeha Home-app-account.",
+        "data": {
+          "email": "E-mailadres",
+          "password": "Wachtwoord"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Opnieuw inloggen bij Remeha Home",
+        "description": "Voer het wachtwoord in voor {email}.",
+        "data": {
+          "password": "Wachtwoord"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Ongeldig e-mailadres of wachtwoord.",
+      "cannot_connect": "Kan de Remeha-cloud niet bereiken.",
+      "login_flow_failed": "Je gegevens zijn geaccepteerd, maar het inloggen bij Remeha is niet afgerond. Zie het Home Assistant-logboek voor details."
+    },
+    "abort": {
+      "already_configured": "Dit account is al geconfigureerd.",
+      "reauth_successful": "Opnieuw inloggen gelukt."
+    }
+  },
+  "entity": {
+    "climate": {
+      "zone": {
+        "state_attributes": {
+          "preset_mode": {
+            "state": {
+              "program_1": "Programma 1",
+              "program_2": "Programma 2",
+              "program_3": "Programma 3"
+            }
+          }
+        }
+      }
+    },
+    "water_heater": {
+      "dhw": {
+        "state": {
+          "eco": "Eco",
+          "comfort": "Comfort",
+          "schedule": "Klokprogramma"
+        }
+      }
+    },
+    "sensor": {
+      "water_pressure": {
+        "name": "Waterdruk"
+      },
+      "outdoor_temperature": {
+        "name": "Buitentemperatuur"
+      },
+      "error_status": {
+        "name": "Status"
+      },
+      "active_thermal_mode": {
+        "name": "Actieve thermische modus"
+      },
+      "operating_mode": {
+        "name": "Bedrijfsmodus"
+      },
+      "next_setpoint": {
+        "name": "Volgend setpoint"
+      },
+      "schedule_setpoint": {
+        "name": "Setpoint klokprogramma"
+      },
+      "next_switch_time": {
+        "name": "Volgend schakelmoment"
+      },
+      "comfort_demand": {
+        "name": "Warmtevraag"
+      },
+      "dhw_temperature": {
+        "name": "Warmwatertemperatuur"
+      },
+      "dhw_status": {
+        "name": "Status warm water"
+      },
+      "heating_energy_consumed_yesterday": {
+        "name": "Energieverbruik verwarming gisteren"
+      },
+      "heating_energy_delivered_yesterday": {
+        "name": "Geleverde warmte verwarming gisteren"
+      },
+      "hot_water_energy_consumed_yesterday": {
+        "name": "Energieverbruik warm water gisteren"
+      },
+      "hot_water_energy_delivered_yesterday": {
+        "name": "Geleverde warmte warm water gisteren"
+      },
+      "cooling_energy_consumed_yesterday": {
+        "name": "Energieverbruik koeling gisteren"
+      },
+      "cooling_energy_delivered_yesterday": {
+        "name": "Geleverde koeling gisteren"
+      },
+      "heat_pump_electricity_yesterday": {
+        "name": "Stroomverbruik warmtepomp gisteren"
+      },
+      "heat_pump_heat_yesterday": {
+        "name": "Warmteproductie warmtepomp gisteren"
+      },
+      "heat_pump_cop_yesterday": {
+        "name": "COP warmtepomp gisteren"
+      },
+      "heat_pump_seasonal_efficiency": {
+        "name": "Seizoensrendement warmtepomp"
+      },
+      "boiler_gas_energy_yesterday": {
+        "name": "Gasverbruik ketel gisteren (energie)"
+      },
+      "boiler_gas_volume_yesterday": {
+        "name": "Gasverbruik ketel gisteren"
+      },
+      "heating_curve_slope": {
+        "name": "Stooklijn helling"
+      },
+      "heating_curve_base_setpoint": {
+        "name": "Stooklijn voetpunt"
+      },
+      "max_flow_temperature": {
+        "name": "Maximale aanvoertemperatuur"
+      },
+      "activity_temperature": {
+        "name": "Activiteit {name}"
+      }
+    },
+    "binary_sensor": {
+      "online": {
+        "name": "Online"
+      },
+      "water_pressure_problem": {
+        "name": "Waterdruk"
+      },
+      "holiday_active": {
+        "name": "Vakantiemodus"
+      },
+      "preheat_active": {
+        "name": "Voorverwarmen"
+      }
+    },
+    "switch": {
+      "fireplace_mode": {
+        "name": "Openhaardmodus"
+      }
+    }
+  }
+}

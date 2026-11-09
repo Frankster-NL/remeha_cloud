@@ -1,0 +1,11 @@
+{
+  "domain": "remeha_cloud",
+  "name": "Remeha Home (cloud)",
+  "codeowners": [],
+  "config_flow": true,
+  "documentation": "https://github.com/msvisser/remeha_home/blob/main/documentation/api.md",
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "requirements": [],
+  "version": "0.2.0"
+}
